@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10%;
+}
+#hero{
+    display: flex;
+    margin: 30px 10%;
+    justify-content: space-between;
+    background-color: #FEEAE9;
+    border-radius: 15px;
+    padding: 60px 60px;
+
+
+}
+.hero-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.hero-container h2{
+    font-size: 40px;
+    
+}
+.hero-container p{
+    width: 65%;
+    line-height: 25px;
+}
+.hero-container h3{
+    color: #FF136F;
+    font-size: 30px;
+}
+.hero-container .btn{
+    width: 22%;
+    padding: 10px 15px;
+    height: 60px;
+    font-size: 17px;
+    margin-top: 10px;
+    background-color: #FF136F;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#card{
+    margin: 20px 10%;
+}
+.card-section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-section .card-menu01{
+    background-color: #FF9C35;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    height: 100px;
+}
+.card-section .card-menu02{
+    background-color: #FF136F;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    height: 100px;
+}
+.card-section .card-menu03{
+    background-color: #3F07F8;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    height: 100px;
+}
+.card-shoe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 20px;
+}
+.shoe-heading h2{
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.card-shoe .shoe{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    height: 520px;
+}
+.shoe-img{
+    height: 200px;
+}
+.shoe-container{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.shoe-container h3{
+    font-size: 25px;
+}
+.shoe-container p{
+    font-size: 17px;
+}
+.shoe-container h4{
+    font-size: 22px;
+}
+.shoe-container #btn{
+    background-color: black;
+    color: white;
+    padding: 10px 17px;
+    border-radius: 7px;
+    font-size: 17px;
+}
+.card-bag{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 20px;
+}
+.bag-heading{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.bag{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.bag-container{
+    margin-top: 20px;
+}
+.bag-container h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.bag-container p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.bag-container h4{
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.bag-container #btn{
+    background-color: black;
+    color: white;
+    padding: 10px 17px;
+    border-radius: 7px;
+    font-size: 17px;
+}
+#footer{
+    margin: 90px 10%;
+}
+.footer-container{
+    padding: 100px 200px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FFF2F1;
+    border-radius: 10px;
+}
+.footer-container h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.footer-container p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #707070;
+}
+.footer-container .mail{
+    width: 50%;
+    height: 60px;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+.footer-container .submit{
+    width: 120px;
+    height: 60px;
+    border: 1px solid red;
+    background: linear-gradient(#FF589B , #FF136F);
+    color: white;
+    font-size: 20px;
+    
+    border: none;
+}
+
+
+
